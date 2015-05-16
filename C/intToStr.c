@@ -1,3 +1,12 @@
+/*
+converts integer to character array
+for when itao is unavalable or unsafe
+
+str sould point to where the string should be wrighten
+len is the length of the string
+val is the integer to be converted
+ofset gets set to the position in str were miningful text starts
+*/
 void intToStr (char* str, const int len, int val, int* ofset)
 {
   char i;
